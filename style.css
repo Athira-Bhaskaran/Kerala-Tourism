@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+}
+.body{
+    background-color: aliceblue;
+}
+.primary-nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(4, 102, 4);
+}
+
+.primary-nav img{
+    aspect-ratio: 15/6;
+    height: 60px;
+    margin: 5px;
+}
+
+.primary-text{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.primary-subheading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.primary-nav{
+    display: flex;
+}
+.nav-items{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: azure;
+}
+
+.nav-loc{
+    display: flex;
+    align-items: center;
+}
+
+.nav-loc svg{
+    margin: 0px 5px 10px 0px;
+}
+
+.search-bar{
+    width: 600px;
+    background-color: transparent;
+}
+.cart svg{
+    color: white;
+}
+.cart svg:hover{
+    color: rgb(13, 113, 234);
+}
+
+.second-nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(12, 137, 12);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.second-nav a{
+    text-decoration: none;
+    font: 20px;
+    color: snow;
+    padding: 0px 10px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 400px;
+   
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    top: 60px;
+}
+
+
+.carousel-control-prev-icon{
+    position: relative;
+    bottom: 100px;
+}
+.carousel-control-next-icon{
+    position: relative;
+    bottom: 100px;
+    /* right: 150px; */
+}
+
+.dept{
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.dept2{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 180px;
+}
+.dept h1{
+    color: rgb(32, 141, 85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    font-size: 50px;
+    font-weight: 600; 
+}
+.dp{
+    height: 300px;
+    width: 300px;
+    background-color: transparent;
+    /* border: 1px black solid; */
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+    /* border-radius: 10%; */
+}
+
+
+
+.dp img{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+}
+.dp h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    color: rgb(7, 24, 80);
+    top: 69%;
+    left: 30%;
+    font-size: 20px;
+}
+
+.dp p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    color: rgb(7, 24, 80);
+    top: 77%;
+    /* left: 30%; */
+    font-size: 11px;
+    text-align: center;
+}
+
+.dp:hover{
+    transform: scale(1.1);
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 1100px;
+    top: 1370px;
+    height: 30px;
+    width: 50px;
+}
+.button input{
+    /* background-color: rgba(0, 200, 255, 0.725); */
+    border-radius: 10%;
+    color: black;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+
+.places{
+
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    background-color: transparent;
+    border: 1px black solid;
+    border-radius: 2%;
+}
+
+.pl1{
+    width: 90%;
+    height: 350px;
+    
+
+}
+.pl2{
+    width: 90%;
+    height: 350px;
+    
+    
+}
+
+
+.pl1 p{
+    font-size: 16px;
+    text-align: justify;
+}
+.pl2 img{
+    width: 400px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 22px;
+}
+.places2{
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    background-color: transparent;
+    border: 1px black solid;
+    border-radius: 2%;
+    top:  1870px;
+}
+.places3{
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    background-color: transparent;
+    border: 1px black solid;
+    border-radius: 2%;
+    top:  2250px;
+}
+.places4{
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    background-color: transparent;
+    border: 1px black solid;
+    border-radius: 2%;
+    top:  2630px;
+}
+.places5{
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    background-color: transparent;
+    border: 1px black solid;
+    border-radius: 2%;
+    top:  3010px;
+}
+
+.cultures{
+
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.cl1{
+    width: 90%;
+    height: 350px;
+    
+
+}
+.cl2{
+    width: 90%;
+    height: 350px;
+ 
+    
+}
+
+
+.cl1 p{
+    font-size: 16px;
+    text-align: justify;
+}
+.cl2 img{
+    width: 400px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 22px;
+}
+.cl3 img{
+    width: 400px;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 22px;
+}
+.cl4 p{
+    width: 90%;
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 50px;
+}
+.hed h1{
+    margin-top: 1940px;
+    font-size: 50px;
+    color: rgb(18, 149, 75);
+    font-weight: 600;
+}
+.hedding h1{
+    color: rgb(18, 149, 75);
+    font-size: 50px;
+    font-weight: 600;
+}
+.cultures2{
+
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 440px;
+}
+.cultures3{
+
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 910px;
+}
+.cultures4{
+
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 1280px;
+}
+.cultures5{
+
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 1690px;
+}
+
+.cultures6{
+
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 2000px;
+}
+
+.contact{
+    height: 270px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: rgb(18, 149, 75);
+    margin-top: 2400px;
+}
+
+.cnt{
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: column ;
+    position: relative;
+    top: 50px;
+}
+.cnt a{
+    text-decoration: none;
+    color: white;
+}
+.cnt h4{
+    color: white;
+    font-weight: 600;
+    
+}
+
+.cnt a:hover{
+    color: blue;
+}
+.contact-end{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(2, 65, 2);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.contact-end a{
+    padding: 10px;
+    color: white;
+}
+.contact-end a:hover{
+    color: rgb(27, 77, 203);
+}
